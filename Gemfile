@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '7.1.5.2'
 
 # Use mysql as the database for Active Record
 gem 'mysql2'
@@ -48,5 +48,5 @@ end
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'annotate'
+  gem 'annotate', '>= 2.6.1'
 end
